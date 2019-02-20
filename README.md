@@ -2,8 +2,8 @@
 a dry dock to play with various docker elements
 
 # build the docker container 
-docker build --tag py27 .
+docker build --tag ub1404dever .
 # run the container
-docker run -itd --name py27_test py27
+docker run -itd --name ub1404t ub1404dever
 # attach to the running container
-docker attach py27_test
+docker attach ub1404t
